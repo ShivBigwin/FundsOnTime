@@ -42,7 +42,7 @@ export default function ShortTermLoanCalculator() {
   const MAX_AMOUNT = 100000;
   const MIN_INTEREST = 0.6;
   const MAX_INTEREST = 1.5;
-  const MIN_TENURE = 7; // Minimum 7 days
+  const MIN_TENURE = 7;
   const MAX_TENURE = 45;
 
   // Colors matching the gradient theme
@@ -192,6 +192,19 @@ export default function ShortTermLoanCalculator() {
       opacity: 1,
       transition: { duration: 0.5 },
     },
+  };
+
+  // Custom label renderer for pie chart - FIXED
+  const renderPieLabel = ({ name, percent, value }: any) => {
+    // Calculate percentage from value if percent is not available
+    const total = pieData.reduce((sum, item) => sum + item.value, 0);
+    const percentage = total > 0 ? ((value / total) * 100).toFixed(1) : "0";
+    return `${percentage}%`;
+  };
+
+  // Alternative: Use percent from recharts
+  const renderLabel = (entry: any) => {
+    return `${(entry.percent * 100).toFixed(1)}%`;
   };
 
   return (
@@ -619,7 +632,18 @@ export default function ShortTermLoanCalculator() {
                             cx="50%"
                             cy="50%"
                             labelLine={false}
-                            label={({ name, percentage }) => `${percentage}%`}
+                            label={(entry) => {
+                              // Calculate percentage based on value
+                              const total = pieData.reduce(
+                                (sum, item) => sum + item.value,
+                                0,
+                              );
+                              const percentage =
+                                total > 0
+                                  ? ((entry.value / total) * 100).toFixed(1)
+                                  : "0";
+                              return `${percentage}%`;
+                            }}
                             outerRadius="80%"
                             innerRadius="55%"
                             fill="#8884d8"
