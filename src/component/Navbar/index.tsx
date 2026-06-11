@@ -116,7 +116,7 @@ export default function Navbar() {
           <div className="flex justify-between items-center">
             {/* LOGO */}
             <Link href="#" className="flex items-center space-x-2">
-              <div className="w-50 h-10 flex items-center justify-center">
+              <div className="md:w-72 h-14 flex items-center justify-center">
                 <img src="FOTlogo4.png" alt="" />
               </div>
               {/* <span className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-cyan-500 bg-clip-text text-transparent">
