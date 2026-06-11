@@ -15,7 +15,7 @@ const contactCards = [
     icon: "/icons/contact-phone.png",
     title: "Phone Support",
     description: "Speak directly with our financial experts",
-    details: "+91-7290999972",
+    details: "+91-72XXXXXX72",
     gradient: "from-white to-blue-50",
     action: "tel:+91-7290999972",
     actionText: "Call Now",
