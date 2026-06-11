@@ -509,7 +509,7 @@ export default function Footer() {
             >
               <Link href="#" className="flex items-center space-x-2">
                 <div className="w-50 h-10 flex items-center justify-center">
-                  <img src="FOTlogo3.png" alt="FundsOnTime Logo" />
+                  <img src="FOTlogo4.png" alt="FundsOnTime Logo" />
                 </div>
               </Link>
             </motion.div>
