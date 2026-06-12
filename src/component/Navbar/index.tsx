@@ -117,7 +117,7 @@ export default function Navbar() {
             {/* LOGO */}
             <Link href="#" className="flex items-center space-x-2">
               <div className="w-40 h-10 md:w-70 md:h-14 flex items-center justify-center">
-                <img src="FOTlogo4.png" alt="logo" />
+                <img src="Logo.png" alt="logo" />
               </div>
               {/* <span className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-cyan-500 bg-clip-text text-transparent">
                 FundsOnTime

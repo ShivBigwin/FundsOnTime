@@ -11,7 +11,10 @@ import Process from "../process/Process";
 export default function Hero() {
   const [currentSlide, setCurrentSlide] = useState(0);
   const [isHovering, setIsHovering] = useState(false);
-  const [imagesLoaded, setImagesLoaded] = useState({ 0: false, 1: false });
+  const [imagesLoaded, setImagesLoaded] = useState<Record<number, boolean>>({
+    0: false,
+    1: false,
+  });
   const [isMounted, setIsMounted] = useState(false);
   const [particles, setParticles] = useState<
     Array<{
