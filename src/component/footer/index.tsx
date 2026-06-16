@@ -509,7 +509,7 @@ export default function Footer() {
             >
               <Link href="#" className="flex items-center space-x-2">
                 <div className="w-50 h-10 flex items-center justify-center">
-                  <img src="FOTlogo4.png" alt="FundsOnTime Logo" />
+                  <img src="Logo.png" alt="FundsOnTime Logo" />
                 </div>
               </Link>
             </motion.div>
@@ -631,7 +631,7 @@ export default function Footer() {
                     href="tel:+9172XXXXXX72"
                     className="text-gray-900 hover:text-emerald-600 transition-colors duration-300 font-medium"
                   >
-                    +91-7290999972
+                    +91-72XXXXXX72
                   </a>
                 </div>
               </motion.li>
@@ -702,7 +702,8 @@ export default function Footer() {
               © {currentYear} FundsOnTime All rights reserved.
               <span className="hidden md:inline"> | </span>
               <span className="block md:inline mt-2 md:mt-0 md:ml-2">
-                Registered with RBI as NBFC - FundsOnTime
+                Registered with RBI as NBFC - Tristar Fincon Credit Private
+                Limited
               </span>
             </p>
           </div>

@@ -22,14 +22,14 @@ export default function Interest_Rate_Policy() {
         {/* Main Content */}
         <div className="bg-white rounded-lg shadow-lg p-6 md:p-8 mb-8">
           <p className="text-gray-700 mb-8 leading-relaxed">
-            FundsOnTime Pvt Ltd (“the Company”), operating as a Non-Banking
-            Finance Company (NBFC), is committed to adhering to the highest
-            standards of regulatory compliance and fair practice. This policy is
-            established in alignment with the Reserve Bank of India (RBI)
-            Circular DNBS / PD / CC No. 95/ 03.05.002/ 2006-07 dated May 24,
-            2007, Notification No. DNBS. 204 / CGM (ASR)-2009 dated January 2,
-            2009, and the subsequent Guidelines on Fair Practices Code for NBFCs
-            (collectively, "RBI Regulations").
+            Tristar Fincon Credit Private Limited (“the Company”), operating as
+            a Non-Banking Finance Company (NBFC), is committed to adhering to
+            the highest standards of regulatory compliance and fair practice.
+            This policy is established in alignment with the Reserve Bank of
+            India (RBI) Circular DNBS / PD / CC No. 95/ 03.05.002/ 2006-07 dated
+            May 24, 2007, Notification No. DNBS. 204 / CGM (ASR)-2009 dated
+            January 2, 2009, and the subsequent Guidelines on Fair Practices
+            Code for NBFCs (collectively, "RBI Regulations").
           </p>
           <p className="text-gray-700 mb-8 leading-relaxed">
             In compliance with these regulations, which mandate the transparent

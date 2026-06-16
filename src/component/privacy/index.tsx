@@ -47,22 +47,23 @@ export default function PrivacyPolicy() {
         {/* Main Content */}
         <div className="bg-white rounded-lg shadow-lg p-6 md:p-8 mb-8">
           <p className="text-gray-700 mb-8 leading-relaxed">
-            At FundsOnTime Private Limited, we believe in responsible lending,
-            ethical practices, and complete transparency in all customer
-            dealings. As a Reserve Bank of India (RBI)- registered NBFC, we
-            adhere to well-defined policies to safeguard customer interests,
-            ensure regulatory compliance, and foster trust in every interaction.
+            At FTristar Fincon Credit Private Limited, we believe in responsible
+            lending, ethical practices, and complete transparency in all
+            customer dealings. As a Reserve Bank of India (RBI)- registered
+            NBFC, we adhere to well-defined policies to safeguard customer
+            interests, ensure regulatory compliance, and foster trust in every
+            interaction.
           </p>
           <p className="text-gray-700 mb-8 leading-relaxed">
-            This online payment system is provided by FOCUS CAPITAL SERVICES
-            LTD. The FundsOnTime may update these terms from time to time and
-            any changes will be effective immediately on being set out on this
-            portal. Please ensure that you are aware of the current terms. The
-            country of domicile of FundsOnTime is India and legal jurisdiction
-            is New Delhi, India. Please read these terms carefully before using
-            the online payment facility. Using the Online payment facility on
-            this website indicates that you accept these terms. If you do not
-            accept these terms do not use this facility.
+            This online payment system is provided by HyperLend Pvt. Ltd . The
+            FundsOnTime may update these terms from time to time and any changes
+            will be effective immediately on being set out on this portal.
+            Please ensure that you are aware of the current terms. The country
+            of domicile of FundsOnTime is India and legal jurisdiction is New
+            Delhi, India. Please read these terms carefully before using the
+            online payment facility. Using the Online payment facility on this
+            website indicates that you accept these terms. If you do not accept
+            these terms do not use this facility.
           </p>
 
           <div className="bg-yellow-50 border-l-4 border-yellow-400 p-4 mb-8">

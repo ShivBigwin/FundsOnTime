@@ -219,9 +219,15 @@ export default function About() {
 
             <div className="space-y-6 text-lg text-gray-600 leading-relaxed">
               <p>
-                FundsOnTime Private Limited is an RBI-registered Non-Banking
-                Financial Company (NBFC), offering personalized, transparent,
-                and timely loan solutions to individuals and MSMEs across India.
+                FundsOnTime is a trusted digital lending platform powered by
+                Tristar Fincon Credit Private Limited, an RBI-registered
+                Non-Banking Financial Company (NBFC). We are committed to
+                providing fast, transparent, and personalized financial
+                solutions tailored to the needs of individuals and MSMEs across
+                India. By combining technology with customer-centric service,
+                FundsOnTime ensures a seamless borrowing experience with quick
+                approvals, flexible loan options, and complete transparency at
+                every step.
               </p>
               <p>
                 We are committed to advancing financial inclusion by delivering
