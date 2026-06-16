@@ -436,7 +436,7 @@ export default function Footer() {
   const socialLinks = [
     {
       icon: "/social/facebook.png",
-      href: "https://facebook.com/profile.php?id=61580553355990",
+      href: " ",
       label: "Facebook",
       color: "from-blue-500 to-blue-700",
     },
@@ -447,7 +447,7 @@ export default function Footer() {
       color: "from-pink-500 to-purple-600",
     },
     {
-      icon: "/social/x.png",
+      icon: "/social/X.png",
       href: "https://x.com",
       label: "X (Twitter)",
       color: "from-gray-800 to-black",
