@@ -21,11 +21,11 @@ export default function Disclaimer() {
         {/* Main Content */}
         <div className="bg-white rounded-lg shadow-lg p-6 md:p-8 mb-8">
           <p className="text-gray-700 mb-8 leading-relaxed">
-            Integrity and transparency form the core of FundsOnTime Pvt Ltd's
-            business values. We adhere to stringent regulations set by oversight
-            authorities, including the Reserve Bank of India, ensuring that all
-            our loan disbursement processes maintain the highest standards of
-            legality and ethical compliance.
+            Integrity and transparency form the core of Tristar Fincon Credit
+            Private Limited business values. We adhere to stringent regulations
+            set by oversight authorities, including the Reserve Bank of India,
+            ensuring that all our loan disbursement processes maintain the
+            highest standards of legality and ethical compliance.
           </p>
           <p className="text-gray-700 mb-8 leading-relaxed">
             However, we have become aware that certain fraudulent entities are
@@ -49,9 +49,9 @@ export default function Disclaimer() {
               We are dedicated to conducting business with integrity and
               upholding openness in all of our interactions. There are never any
               up-front costs associated with loan applications or associated
-              services at FundsOnTimePvt Ltd. Any demand for upfront payment
-              coming from unapproved sources is blatantly fraudulent and goes
-              against our policies.
+              services at Tristar Fincon Credit Private Limited. Any demand for
+              upfront payment coming from unapproved sources is blatantly
+              fraudulent and goes against our policies.
             </p>
             <br />
             <p className="text-red-900">
@@ -82,14 +82,14 @@ export default function Disclaimer() {
             <span className="font-bold">
               Regards,
               <br />
-              FundsOnTime Pvt. Ltd.
+              Tristar Fincon Credit Private Limited
             </span>
           </p>
           {/* Footer Note */}
           <div className="text-center text-gray-500 text-sm pt-6">
             <p>
-              Last updated: {new Date().getFullYear()} | FundsOnTime Private
-              Limited
+              Last updated: {new Date().getFullYear()} | Tristar Fincon Credit
+              Private Limited
             </p>
           </div>
         </div>

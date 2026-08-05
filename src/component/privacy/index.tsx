@@ -47,7 +47,7 @@ export default function PrivacyPolicy() {
         {/* Main Content */}
         <div className="bg-white rounded-lg shadow-lg p-6 md:p-8 mb-8">
           <p className="text-gray-700 mb-8 leading-relaxed">
-            At FTristar Fincon Credit Private Limited, we believe in responsible
+            At Tristar Fincon Credit Private Limited, we believe in responsible
             lending, ethical practices, and complete transparency in all
             customer dealings. As a Reserve Bank of India (RBI)- registered
             NBFC, we adhere to well-defined policies to safeguard customer
@@ -55,22 +55,22 @@ export default function PrivacyPolicy() {
             interaction.
           </p>
           <p className="text-gray-700 mb-8 leading-relaxed">
-            This online payment system is provided by HyperLend Pvt. Ltd . The
-            FundsOnTime may update these terms from time to time and any changes
-            will be effective immediately on being set out on this portal.
-            Please ensure that you are aware of the current terms. The country
-            of domicile of FundsOnTime is India and legal jurisdiction is New
-            Delhi, India. Please read these terms carefully before using the
-            online payment facility. Using the Online payment facility on this
-            website indicates that you accept these terms. If you do not accept
-            these terms do not use this facility.
+            This online payment system is provided by Tristar Fincon Credit
+            Private Limited.The FundsOnTime may update these terms from time to
+            time and any changes will be effective immediately on being set out
+            on this portal. Please ensure that you are aware of the current
+            terms. The country of domicile of FundsOnTime is India and legal
+            jurisdiction is New Delhi, India. Please read these terms carefully
+            before using the online payment facility. Using the Online payment
+            facility on this website indicates that you accept these terms. If
+            you do not accept these terms do not use this facility.
           </p>
 
           <div className="bg-yellow-50 border-l-4 border-yellow-400 p-4 mb-8">
             <p className="text-yellow-700">
               By registering on our website, you agree to receive marketing
-              communications from Nutrabay via email, SMS, RCS, WhatsApp, push
-              notifications, and other similar channels.
+              communications via email, SMS, RCS, WhatsApp, push notifications,
+              and other similar channels.
             </p>
           </div>
 
@@ -135,8 +135,8 @@ export default function PrivacyPolicy() {
           {/* Footer Note */}
           <div className="text-center text-gray-500 text-sm pt-6">
             <p>
-              Last updated: {new Date().getFullYear()} | FundsOnTime Private
-              Limited
+              Last updated: {new Date().getFullYear()} | Tristar Fincon Credit
+              Private Limited
             </p>
           </div>
         </div>

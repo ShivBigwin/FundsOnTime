@@ -17,7 +17,7 @@ const contactCards = [
     description: "Speak directly with our financial experts",
     details: "+91-72XXXXXX72",
     gradient: "from-white to-blue-50",
-    action: "tel:+91-7290999972",
+    action: "tel:+91-72XXXXXX72",
     actionText: "Call Now",
   },
   {
